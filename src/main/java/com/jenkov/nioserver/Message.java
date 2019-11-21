@@ -18,7 +18,7 @@ public class Message {
 
     public Object metaData    = null;
 
-    public Message(MessageBuffer messageBuffer) {
+    Message(MessageBuffer messageBuffer) {
         this.messageBuffer = messageBuffer;
     }
 
